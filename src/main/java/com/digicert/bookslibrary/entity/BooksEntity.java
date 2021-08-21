@@ -18,4 +18,12 @@ public class BooksEntity {
     private String bookAuthor;
     private String bookGenre;
 
+    public BooksEntity(String bookName, String bookAuthor, String bookGenre){
+        this.bookName = bookName;
+        this.bookAuthor = bookAuthor;
+        this.bookGenre = bookGenre;
+    }
+
+    BooksEntity(){}
+
 }
